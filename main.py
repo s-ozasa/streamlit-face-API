@@ -8,7 +8,7 @@ from PIL import ImageDraw
 st.title('顔認識アプリ')  #タイトル
 
 #Microsoft API情報
-with open('D:/Python_Exanmple/streamlit-MS API/secret.json') as f:
+with open('secret.json') as f:
     secret_json = json.load(f)
 subscription_key = secret_json['subscription_key']
 assert subscription_key
